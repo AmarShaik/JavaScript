@@ -1,67 +1,86 @@
 # 10 Days of JavaScript – HackerRank Solutions
 
-This repository contains my solutions to the **"10 Days of JavaScript"** challenge on [HackerRank](https://www.hackerrank.com/). The challenge is designed to help developers strengthen their understanding of JavaScript through a series of progressively structured problems.
+This repository contains my personal solutions to the **"10 Days of JavaScript"** challenge hosted on HackerRank. It is a 10-day guided series of coding exercises focused on improving your fundamental and intermediate JavaScript skills.
+
+> 📘 Official Challenge Link:  
+> <a href="https://www.hackerrank.com/domains/tutorials/10-days-of-javascript" target="_blank">10 Days of JavaScript – HackerRank</a>
 
 ---
 
-## Overview
+## Challenge Overview
 
-- A collection of `.js` files that solve each problem presented during the 10-day challenge.
-- Each file demonstrates a specific concept such as functions, loops, arrays, regular expressions, or error handling.
-- The goal of this repository is to document my learning journey and provide a reference for others practicing the same problems.
+The **10 Days of JavaScript** challenge provides hands-on practice with different core concepts in JavaScript. Every day introduces a new theme, followed by practical problems to solve.
 
----
-
-## Challenge Objectives
-
-Each day introduces different core concepts of JavaScript. Topics covered include:
-
-- Day 0: Data types, variable declarations, and simple input/output
-- Day 1: Arithmetic operations, functions, and conditional logic
-- Day 2: Loops and regular expressions
-- Day 3: Arrays and string manipulation
-- Day 4: Objects and JSON
-- Day 5: Classes and object-oriented programming
-- Day 6: Inheritance and prototype chain
-- Day 7: Error handling using `try`, `catch`, and `throw`
-- Day 8: Advanced array methods like `map`, `filter`, and `reduce`
-- Day 9: DOM manipulation (Binary Calculator)
+This repository documents my solutions to each of those problems, along with some custom-named `.js` files that reflect their functionality.
 
 ---
 
-## File Structure
+## Challenge Breakdown
 
-Each file in the repository is named to reflect the problem or concept it addresses. For example:
+Below is the complete list of problems organized by day:
 
-- `arithmeticops.js` – Basic arithmetic operations
-- `arrowfunc.js` – Arrow functions usage
-- `regexps.js` – Regular expression patterns
-- `factorial.js` – Recursive function implementation
-- `throw.js` – Error handling with `throw`
-- `classes.js` – Class-based structure in JavaScript
-- `day9_binary_calculator/` – Project for DOM-based binary calculator
+### ✅ Day 0: Introduction
+- Hello, World!
+- Data Types
+
+### ✅ Day 1: Basic Arithmetic and Logic
+- Arithmetic Operators
+- Functions
+- Let and Const
+
+### ✅ Day 2: Conditions and Loops
+- Conditional Statements: If-Else
+- Conditional Statements: Switch
+- Loops
+
+### ✅ Day 3: Arrays and Exceptions
+- Arrays
+- Try, Catch, and Finally
+- Throw
+
+### ✅ Day 4: Objects and Classes
+- Create a Rectangle Object
+- Count Objects
+- Classes
+
+### ✅ Day 5: Inheritance and Modern Syntax
+- Inheritance
+- Template Literals
+- Arrow Functions
+
+### ✅ Day 6: Bits and Dates
+- Bitwise Operators
+- JavaScript Dates
+
+### ✅ Day 7: Regular Expressions
+- Regular Expressions I
+- Regular Expressions II
+- Regular Expressions III
+
+### ✅ Day 8: DOM Manipulation – Part 1
+- Create a Button
+- Buttons Container
+
+### ✅ Day 9: DOM Manipulation – Part 2
+- Binary Calculator
 
 ---
 
-## Skills Practiced
+## Repository Structure
 
-This challenge helps reinforce the following concepts:
+All solutions are organized as individual JavaScript files. Some filenames may differ from the problem names but represent the core logic being implemented.
 
-- Variable scope and declarations (`let`, `const`, `var`)
-- Data types and type coercion
-- Function declarations and arrow functions
-- Loops (`for`, `while`) and control flow
-- Arrays, array methods, and manipulation
-- String processing
-- Object manipulation and class-based design
-- Regular expressions
-- Exception handling
-- DOM manipulation and event-driven programming
+Example structure:
 
----
-
-## How to Run
-
-To run the JavaScript files locally:
-
-1. Clone the repository:
+JavaScript/
+├── arithmeticops.js
+├── arrowfunc.js
+├── arrays.js
+├── classes.js
+├── classrectangle.js
+├── regexps.js
+├── regexps2.js
+├── regexps3.js
+├── throw.js
+├── factorial.js
+├── day9_binary_calculator/
